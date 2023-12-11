@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\MemoryGame\stm_lib -IF:\MemoryGame\SG_lib -IF:\MemoryGame\cmsis -IF:\MemoryGame -IF:\MemoryGame\stm_lib\inc -IF:\MemoryGame\cmsis_boot -IF:\MemoryGame\SG_lib\SG_glcd_lib -IF:\">
+      <target file="stm32f10x_tim.o" lastModified="18b3d5aba30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="18b3d5aa2c0"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\Programowanie_systemow_wbudowanych\MemoryGame\stm_lib\inc -IF:\Programowanie_systemow_wbudowanych\MemoryGame\SG_lib\SG_glcd_lib -IF:\Programowanie_systemow_wbudowanych\MemoryGame -IF:\Programowanie_systemow_wbudowanych\MemoryGame\SG_lib -IF:\Programowanie_systemow_wbudowanych\MemoryGame\cmsis_boot -IF:\Programowanie_systemow_wbudowanych -IF:\Programowanie_systemow_wbudowanych\MemoryGame\cmsis -IF:\ -IF:\Programowanie_systemow_wbudowanych\MemoryGame\stm_lib">
+      <target file="memoryGame.o" lastModified="18b617f0bf0">
+         <source file="..\..\..\memoryGame.c" lastModified="18b617ee4e0"/>
+      </target>
+      <target file="gpio.o" lastModified="18b61429f30">
+         <source file="..\..\..\SG_lib\gpio.c" lastModified="1535379b330"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="18b6142a700">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="18b19699dd0"/>
+      </target>
+      <target file="systick.o" lastModified="18b6142a700">
+         <source file="..\..\..\SG_lib\systick.c" lastModified="153762007e0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="18b1964bbd0"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="18b3d5a3d30"/>
+      </target>
+      <target file="touchPanel.o" lastModified="18b6142a700">
+         <source file="..\..\..\SG_lib\touchPanel.c" lastModified="1538b67b170"/>
+      </target>
+      <target file="misc.o" lastModified="18b6142a700">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="18b1969d480"/>
+      </target>
+      <target file="stm32f10x_fsmc.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="18b19699600"/>
+      </target>
+      <target file="stm32f10x_systick.o" lastModified="18b6142a700">
+         <source file="..\..\..\SG_lib\stm32f10x_systick.c" lastModified="142d445ceb0"/>
+      </target>
+      <target file="GLCD_SG.o" lastModified="18b61429f30">
+         <source file="..\..\..\SG_lib\SG_glcd_lib\GLCD_SG.c" lastModified="1538c23b640"/>
+      </target>
+      <target file="joystick.o" lastModified="18b61429f30">
+         <source file="..\..\..\SG_lib\joystick.c" lastModified="15389d6c8a0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="18b1964bbd0"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="18b6152cbd0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="18b61513d60"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="18b61429f30">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="18b1964bbd0"/>
+      </target>
+      <target file="syscalls.o" lastModified="18b61429f30">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18b19696ef0"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="18b61429f30">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="18b1964bbd0"/>
+      </target>
+      <target file="adc.o" lastModified="18b61429f30">
+         <source file="..\..\..\SG_lib\adc.c" lastModified="15389ba7e70"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="18b1969bd10"/>
+      </target>
+      <target file="AsciiLib.o" lastModified="18b61429f30">
+         <source file="..\..\..\SG_lib\SG_glcd_lib\AsciiLib.c" lastModified="12c894aa7c0"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="18b61429f30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="18b1969c4e0"/>
+      </target>
+      <target file="main.o" lastModified="18b6178a350">
+         <source file="..\..\..\main.c" lastModified="18b617353f0"/>
+      </target>
+   </processor>
+</history>

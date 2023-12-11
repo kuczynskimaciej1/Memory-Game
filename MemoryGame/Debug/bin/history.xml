@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=MemoryGame.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\MemoryGame -TC:\CooCox\CoIDE\configuration\ProgramData\MemoryGame/arm-gcc-link.ld -g">
+      <target file="MemoryGame.elf" lastModified="18b617f13c0">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="18b6152cbd0"/>
+         <source file="..\obj\memoryGame.o" lastModified="18b617f0bf0"/>
+         <source file="..\obj\GLCD_SG.o" lastModified="18b61429f30"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="18b61429f30"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_fsmc.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="18b61429f30"/>
+         <source file="..\obj\main.o" lastModified="18b6178a350"/>
+         <source file="..\obj\AsciiLib.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="18b61429f30"/>
+         <source file="..\obj\gpio.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="18b61429f30"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="18b61429f30"/>
+         <source file="..\obj\syscalls.o" lastModified="18b61429f30"/>
+         <source file="..\obj\adc.o" lastModified="18b61429f30"/>
+         <source file="..\obj\joystick.o" lastModified="18b61429f30"/>
+         <source file="..\obj\touchPanel.o" lastModified="18b6142a700"/>
+         <source file="..\obj\misc.o" lastModified="18b6142a700"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="18b6142a700"/>
+         <source file="..\obj\systick.o" lastModified="18b6142a700"/>
+         <source file="..\obj\stm32f10x_systick.o" lastModified="18b6142a700"/>
+      </target>
+   </processor>
+</history>
